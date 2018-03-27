@@ -1,7 +1,0 @@
-<resources>
-    <string name="sex">sex</string>
-    <string name="edtSex">Enter your gender</string>
-    <string name="age">age</string>
-    <string name="edtAge">Enter your age</string>
-    <string name="btn_ok">Confirm</string>
-</resources>
