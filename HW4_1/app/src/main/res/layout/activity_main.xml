@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="edu.ntut.user.myhw3.MainActivity">
+
+    <TextView
+        android:id="@+id/txtSex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sex"
+        android:textSize="25sp" />
+
+    <RadioGroup
+        android:id="@+id/radGrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radBtnMale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/radBtnFemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/female" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age"
+        android:textSize="25sp" />
+
+    <Spinner
+        android:id="@+id/spnAge"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:entries="@array/age_list"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hobbies"
+        android:textSize="25sp"/>
+
+    <CheckBox
+        android:id="@+id/hobbies1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/music"
+        android:textSize="25sp"/>
+
+    <CheckBox
+        android:id="@+id/hobbies2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sing"
+        android:textSize="25sp"/>
+
+    <CheckBox
+        android:id="@+id/hobbies3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dance"
+        android:textSize="25sp"/>
+
+    <CheckBox
+        android:id="@+id/hobbies4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/travel"
+        android:textSize="25sp"/>
+
+    <CheckBox
+        android:id="@+id/hobbies5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reading"
+        android:textSize="25sp"/>
+
+    <CheckBox
+        android:id="@+id/hobbies6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/writing"
+        android:textSize="25sp"/>
+
+    <CheckBox
+        android:id="@+id/hobbies7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/climbing"
+        android:textSize="25sp"/>
+
+    <CheckBox
+        android:id="@+id/hobbies8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/swim"
+        android:textSize="25sp"/>
+
+    <CheckBox
+        android:id="@+id/hobbies9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eating"
+        android:textSize="25sp"/>
+
+    <CheckBox
+        android:id="@+id/hobbies10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/drawing"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnOK"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtSug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/suggestion"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtHobbies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/yourhobbies"
+        android:textSize="25sp"/>
+
+</LinearLayout>
+
+</ScrollView>
