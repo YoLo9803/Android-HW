@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">作業八:王方顯</string>
-    <array name="type">
-        <item>Breakfast</item>
-        <item>Lunch</item>
-        <item>Dinner</item>
-    </array>
-</resources>
