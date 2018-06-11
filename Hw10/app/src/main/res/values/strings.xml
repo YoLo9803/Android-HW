@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">作業十:王方顯</string>
+    <string-array name="type">
+        <item>mobile</item>
+        <item>home</item>
+        <item>office</item>
+    </string-array>
+</resources>
